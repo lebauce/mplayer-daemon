@@ -1,0 +1,9 @@
+[Unit]
+Description=MPlayer daemon
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/mplayer-daemon
+
+[Install]
+WantedBy=multi-user.target
